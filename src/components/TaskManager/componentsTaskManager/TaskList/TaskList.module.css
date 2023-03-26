@@ -1,0 +1,13 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listItem + .listItem {
+  /* border-top: 1px dashed #d4d3d3; */
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 7px;
+  border-radius: 14px;
+  margin-bottom: 8px;
+}

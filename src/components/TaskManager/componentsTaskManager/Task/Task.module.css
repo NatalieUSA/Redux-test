@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 50px;
+  background-color: lightgrey;
+  cursor: pointer;
+  color: deeppink;
+}
+
+.btn:hover {
+  background-color: deeppink;
+  color: grey;
+}
+
+.btn:active {
+  background-color: deeppink;
+  color: grey;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: deeppink;
+}

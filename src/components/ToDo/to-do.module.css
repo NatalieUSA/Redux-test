@@ -1,0 +1,64 @@
+.btn {
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 50px;
+  background-color: lightgrey;
+  cursor: pointer;
+  color: deeppink;
+}
+
+.btn:hover {
+  background-color: deeppink;
+  color: grey;
+}
+
+.btn:active {
+  background-color: deeppink;
+  color: grey;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: deeppink;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  list-style: none;
+  color: white;
+  background-color: rgb(25, 118, 210, 0.6);
+  border-radius: 50px;
+  margin-bottom: 5px;
+  margin-right: auto;
+}
+
+.input {
+  background-color: rgb(25, 118, 210, 0.6);
+  border-radius: 50px;
+  padding: 22px;
+  margin-bottom: 5px;
+  border: none;
+  color: white;
+}
+
+.delete {
+  color: deeppink;
+  width: 54;
+  height: 54;
+  cursor: pointer;
+  padding: 0 15px;
+  font-size: 30px;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+}

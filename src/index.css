@@ -1,4 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize;  */
+/* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -7,6 +8,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/kiss-close-pop-art-artstudione.jpg);
+  color: deeppink;
+  font-size: large;
+  background-size: 100%;
 }
 
 code {

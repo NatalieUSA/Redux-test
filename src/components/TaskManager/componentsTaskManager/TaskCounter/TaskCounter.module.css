@@ -1,0 +1,13 @@
+.text {
+  margin: 0;
+  color: deeppink;
+  /* text-transform: uppercase; */
+  font-size: large;
+  padding: 1px 12px;
+  border-radius: 14px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  background-color: rgb(4, 197, 245);
+  margin-bottom: 6px;
+}

@@ -1,0 +1,30 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 14px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  background-color: rgb(4, 197, 245);
+  /* background-color: transparent; */
+  color: inherit;
+  width: 110px;
+  align-content: center;
+}
+
+.btn.isSelected {
+  background-color: deeppink;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #ffe714;
+  color: rgb(4, 197, 245);
+}
+
+.btn:active {
+  background-color: deeppink;
+  color: #fff;
+}
